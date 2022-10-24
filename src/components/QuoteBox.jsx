@@ -16,6 +16,7 @@ const QuoteBox = () => {
     const colorIndex = Math.floor(Math.random()*colors.length);
     document.body.style = `background: ${colors[colorIndex]}`;
   console.log(quotes);
+  
   const randomIndex = Math.floor(Math.random()*quotes.length);
   const[index, setIndex] = useState(randomIndex);
   const changeWord = () => {

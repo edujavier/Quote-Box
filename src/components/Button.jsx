@@ -5,7 +5,7 @@ const Button = ({changeWord}) => {
   
   return (
     <div >
-      <button   className="button" onClick={changeWord} ><i class="fa-solid fa-chevron-right"></i></button>
+      <button className="button" onClick={changeWord} ><i class="fa-solid fa-chevron-right" ></i></button>
     </div>
   );
 };
