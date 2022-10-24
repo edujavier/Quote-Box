@@ -7,7 +7,7 @@
   
 }
 body {
-  margin: 0;
+  margin: 0 auto;
 }
 
 * {
@@ -17,7 +17,7 @@ body {
 .App{
   width: 60%;
 max-width: 400px;
-padding: 15em 45em;
+padding: 15em 30em;
 height: 60%;
 max-height: 85%;
 border-radius: 3em;
@@ -31,7 +31,7 @@ flex-direction: column;
 .card{
   box-shadow: 2px 2px 8px rgba(1, 2, 1, 5);
   width: fit-content;
-  padding: 30px;
+  padding: 25px;
   border-radius: 25px;
   background: #fff;
   
