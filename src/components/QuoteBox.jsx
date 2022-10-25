@@ -30,7 +30,7 @@ const QuoteBox = () => {
       {quotes[index].quote}</h2>
       <p>{quotes[index].author}</p>
       <div className="button">
-      <Button changeWord={changeWord} />
+      <Button changeWord={changeWord} colors={colors} colorIndex={colorIndex}/>
       </div>
       
       
